@@ -1,0 +1,81 @@
+{
+  "posts": [
+    {
+      "title": "asdas",
+      "price": "dasd",
+      "descr": "asd",
+      "image": "https://miro.medium.com/max/1400/1*6A6TH2-244JO17ciueMV3g.jpeg",
+      "id": 1
+    },
+    {
+      "title": "sly",
+      "price": "sly",
+      "descr": "sly",
+      "image": "300",
+      "id": 2
+    },
+    {
+      "title": "Sly",
+      "price": "sly",
+      "descr": "300",
+      "image": "sly",
+      "id": 3
+    },
+    {
+      "title": "sly",
+      "price": "300",
+      "descr": "sly",
+      "image": "https://cdn.azbyka.ru/wp-content/uploads/2015/08/cerkov_1.jpg",
+      "id": 4
+    },
+    {
+      "title": "asda",
+      "price": "asda",
+      "descr": "aasd",
+      "image": "asda",
+      "id": 5
+    },
+    {
+      "title": "rty",
+      "price": "rty",
+      "descr": "rty",
+      "image": "y",
+      "id": 6
+    },
+    {
+      "title": "nhg",
+      "price": "nhg",
+      "descr": "ghn",
+      "image": "nhg",
+      "id": 7
+    },
+    {
+      "title": "987",
+      "price": "987",
+      "descr": "987",
+      "image": "987",
+      "id": 8
+    },
+    {
+      "title": "oslosdfw",
+      "price": "fw",
+      "descr": "sdcwfw",
+      "image": "vbn,wefw",
+      "id": 9
+    },
+    {
+      "title": "dssdsd",
+      "price": "vsdvsd",
+      "descr": "  xcsd",
+      "image": "qdasd",
+      "id": 10
+    },
+    {
+      "title": "sdcsdas",
+      "price": "dddyjui",
+      "descr": "kl;",
+      "image": "kujy",
+      "id": 11
+    }
+  ]
+}
