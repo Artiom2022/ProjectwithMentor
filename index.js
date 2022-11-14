@@ -1,5 +1,14 @@
 // ? АПИ Для запросов
 let API = "http://localhost:8000/posts";
+let API_USERS = "http://localhost:8000/users";
+
+// ! Registration + Auth
+
+let username = document.querySelector("#username");
+let password = document.querySelector("#password");
+let submit = document.querySelector("#submit");
+
+// ! CRUD
 
 let inp = document.querySelector(".inp");
 let title = document.querySelector("#title");
@@ -30,6 +39,27 @@ let searchInp = document.querySelector("#search");
 let searchVal = "";
 
 let list = document.querySelector("#products-list");
+
+submit.addEventListener("click", async () => {
+  let obj = {
+    username: username.value,
+    password: password.value,
+  };
+
+  if (!obj.username.trim() || !obj.password.trim()) {
+    alert("fill the form filed");
+    return;
+  }
+  console.log(obj);
+
+  await fetch(API_USERS, {
+    method: "POST",
+    body: JSON.stringify(obj),
+    headers: {
+      "Content-type": "application/json",
+    },
+  }).then(() => alert("Пользователь добавлен"));
+});
 
 // ! ADD - Обработчик событий на добавление
 btnAdd.addEventListener("click", async function () {

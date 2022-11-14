@@ -69,13 +69,38 @@
       "descr": "  xcsd",
       "image": "qdasd",
       "id": 10
+    }
+  ],
+  "users": [
+    {
+      "username": "sdf",
+      "password": "sdgh",
+      "id": 1
     },
     {
-      "title": "sdcsdas",
-      "price": "dddyjui",
-      "descr": "kl;",
-      "image": "kujy",
-      "id": 11
+      "username": "Art",
+      "password": "09876",
+      "id": 2
+    },
+    {
+      "username": "Erkin",
+      "password": "5555555555",
+      "id": 3
+    },
+    {
+      "username": "Erkin",
+      "password": "5555555555",
+      "id": 4
+    },
+    {
+      "username": "Erkin",
+      "password": "5555555555",
+      "id": 5
+    },
+    {
+      "username": "Erkin",
+      "password": "5555555555",
+      "id": 6
     }
   ]
 }
